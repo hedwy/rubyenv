@@ -1,0 +1,25 @@
+[2018-09-30 21:54:45] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/redmine/.rvm/src/ruby-2.5.1
+PATH=/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/redmine/.rvm/bin:/home/redmine/bin
+command(8): __rvm_set_executable /home/redmine/.rvm/rubies/ruby-2.5.1/bin/erb /home/redmine/.rvm/rubies/ruby-2.5.1/bin/gem /home/redmine/.rvm/rubies/ruby-2.5.1/bin/irb /home/redmine/.rvm/rubies/ruby-2.5.1/bin/rake /home/redmine/.rvm/rubies/ruby-2.5.1/bin/rdoc /home/redmine/.rvm/rubies/ruby-2.5.1/bin/ri /home/redmine/.rvm/rubies/ruby-2.5.1/bin/ruby
+++ for __file in '"$@"'
+++ [[ -x /home/redmine/.rvm/rubies/ruby-2.5.1/bin/erb ]]
+++ for __file in '"$@"'
+++ [[ -x /home/redmine/.rvm/rubies/ruby-2.5.1/bin/gem ]]
+++ for __file in '"$@"'
+++ [[ -x /home/redmine/.rvm/rubies/ruby-2.5.1/bin/irb ]]
+++ for __file in '"$@"'
+++ [[ -x /home/redmine/.rvm/rubies/ruby-2.5.1/bin/rake ]]
+++ for __file in '"$@"'
+++ [[ -x /home/redmine/.rvm/rubies/ruby-2.5.1/bin/rdoc ]]
+++ for __file in '"$@"'
+++ [[ -x /home/redmine/.rvm/rubies/ruby-2.5.1/bin/ri ]]
+++ for __file in '"$@"'
+++ [[ -x /home/redmine/.rvm/rubies/ruby-2.5.1/bin/ruby ]]

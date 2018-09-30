@@ -1,0 +1,66 @@
+current directory: /home/redmine/.rvm/gems/ruby-2.5.1/gems/redcarpet-3.4.0/ext/redcarpet
+/home/redmine/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20180930-28116-sh7f1s.rb extconf.rb
+creating Makefile
+
+current directory: /home/redmine/.rvm/gems/ruby-2.5.1/gems/redcarpet-3.4.0/ext/redcarpet
+make "DESTDIR=" clean
+
+current directory: /home/redmine/.rvm/gems/ruby-2.5.1/gems/redcarpet-3.4.0/ext/redcarpet
+make "DESTDIR="
+compiling autolink.c
+compiling buffer.c
+buffer.c: In function ‘bufcstr’:
+buffer.c:111: attention : passing argument 1 of ‘bufgrow’ discards qualifiers from pointer target type
+buffer.c:60: note: expected ‘struct buf *’ but argument is of type ‘const struct buf *’
+Hors de toute fonction :
+cc1: attention : option "-Wno-self-assign" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-constant-logical-operand" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-parentheses-equality" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-tautological-compare" de la ligne de commande non reconnue
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+compiling html_smartypants.c
+html_smartypants.c: In function ‘squote_len’:
+html_smartypants.c:104: attention : initialization discards qualifiers from pointer target type
+html_smartypants.c:104: attention : initialization discards qualifiers from pointer target type
+html_smartypants.c:104: attention : initialization discards qualifiers from pointer target type
+html_smartypants.c:104: attention : initialization discards qualifiers from pointer target type
+html_smartypants.c: In function ‘smartypants_squote’:
+html_smartypants.c:149: attention : comparaison entre des expressions entières signée et non signée
+html_smartypants.c: In function ‘smartypants_cb__amp’:
+html_smartypants.c:250: attention : ISO C89 interdit les mélanges de déclarations et de code
+Hors de toute fonction :
+cc1: attention : option "-Wno-self-assign" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-constant-logical-operand" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-parentheses-equality" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-tautological-compare" de la ligne de commande non reconnue
+compiling markdown.c
+markdown.c: In function ‘char_link’:
+markdown.c:1045: attention : ISO C89 interdit les mélanges de déclarations et de code
+markdown.c:1085: attention : ISO C89 interdit les mélanges de déclarations et de code
+markdown.c: In function ‘sd_markdown_render’:
+markdown.c:2818: attention : ISO C89 interdit les mélanges de déclarations et de code
+markdown.c:2836: attention : passing argument 1 of ‘is_codefence’ discards qualifiers from pointer target type
+markdown.c:1389: note: expected ‘uint8_t *’ but argument is of type ‘const uint8_t *’
+markdown.c: Hors de toute fonction :
+markdown.c:94: attention : ‘char_underline’ declared ‘static’ but never defined
+cc1: attention : option "-Wno-self-assign" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-constant-logical-operand" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-parentheses-equality" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-tautological-compare" de la ligne de commande non reconnue
+compiling rc_markdown.c
+rc_markdown.c: In function ‘rb_redcarpet_md_render’:
+rc_markdown.c:138: attention : ISO C89 interdit les mélanges de déclarations et de code
+Hors de toute fonction :
+cc1: attention : option "-Wno-self-assign" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-constant-logical-operand" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-parentheses-equality" de la ligne de commande non reconnue
+cc1: attention : option "-Wno-tautological-compare" de la ligne de commande non reconnue
+compiling rc_render.c
+compiling stack.c
+linking shared-object redcarpet.so
+
+current directory: /home/redmine/.rvm/gems/ruby-2.5.1/gems/redcarpet-3.4.0/ext/redcarpet
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 redcarpet.so ./.gem.20180930-28116-1b98w8n

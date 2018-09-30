@@ -1,0 +1,17 @@
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/executable-hooks-1.5.0/ext/wrapper_installer
+/home/redmine/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20180930-17228-1k05sc2.rb extconf.rb
+bundler 1.16.2
+rake 12.3.0
+rdoc 6.0.1
+
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/executable-hooks-1.5.0/ext/wrapper_installer
+make "DESTDIR=" clean
+make: *** Pas de règle pour fabriquer la cible « clean ». Arrêt.
+
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/executable-hooks-1.5.0/ext/wrapper_installer
+make "DESTDIR="
+make: Rien à faire pour « all ».
+
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/executable-hooks-1.5.0/ext/wrapper_installer
+make "DESTDIR=" install
+make: Rien à faire pour « install ».

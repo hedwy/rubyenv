@@ -1,0 +1,84 @@
+[2018-09-30 21:55:01] alias_delete_execute
+alias_delete_execute () 
+{ 
+    for _path in "$rvm_rubies_path" "$rvm_gems_path" "$rvm_environments_path" "$rvm_wrappers_path";
+    do
+        if [[ -L "$_path/$1" ]]; then
+            \command \rm -fv "$_path/$1" || return $?;
+        fi;
+    done;
+    __rvm_db_ "$rvm_path/config/alias" "$1" "delete";
+    alias_after_delete_default "$1" || return $?
+}
+current path: /home/redmine
+GEM_HOME=/home/redmine/.rvm/gems/ruby-2.5.1
+PATH=/home/redmine/.rvm/gems/ruby-2.5.1/bin:/home/redmine/.rvm/gems/ruby-2.5.1@global/bin:/home/redmine/.rvm/rubies/ruby-2.5.1/bin:/home/redmine/.rvm/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/redmine/bin
+GEM_PATH=/home/redmine/.rvm/gems/ruby-2.5.1:/home/redmine/.rvm/gems/ruby-2.5.1@global
+command(2): alias_delete_execute default
++ for _path in '"$rvm_rubies_path"' '"$rvm_gems_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ [[ -L /home/redmine/.rvm/rubies/default ]]
++ for _path in '"$rvm_rubies_path"' '"$rvm_gems_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ [[ -L /home/redmine/.rvm/gems/default ]]
++ for _path in '"$rvm_rubies_path"' '"$rvm_gems_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ [[ -L /home/redmine/.rvm/environments/default ]]
++ for _path in '"$rvm_rubies_path"' '"$rvm_gems_path"' '"$rvm_environments_path"' '"$rvm_wrappers_path"'
++ [[ -L /home/redmine/.rvm/wrappers/default ]]
++ __rvm_db_ /home/redmine/.rvm/config/alias default delete
++ typeset __db __key __value
++ __db=/home/redmine/.rvm/config/alias
++ __key=default
++ shift 2
++ __value=delete
++ case "${__value}" in
++ __rvm_db_remove /home/redmine/.rvm/config/alias default
++ [[ -f /home/redmine/.rvm/config/alias ]]
++ __rvm_sed -e '\#^default=# d' -e '/^$/d' /home/redmine/.rvm/config/alias
++ sed -e '\#^default=# d' -e '/^$/d' /home/redmine/.rvm/config/alias
++ command mv -f /home/redmine/.rvm/config/alias.new /home/redmine/.rvm/config/alias
++ mv -f /home/redmine/.rvm/config/alias.new /home/redmine/.rvm/config/alias
++ alias_after_delete_default default
++ [[ default == \d\e\f\a\u\l\t ]]
++ for _path in '"$rvm_bin_path"/default_*'
++ [[ -f /home/redmine/.rvm/bin/default_* ]]
++ _path='/home/redmine/.rvm/bin/default_*'
++ [[ -f /home/redmine/.rvm/bin/default_* ]]
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path='*'
++ command rm -fv '/home/redmine/.rvm/bin/*'
++ rm -fv '/home/redmine/.rvm/bin/*'
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=gem
++ command rm -fv /home/redmine/.rvm/bin/gem
++ rm -fv /home/redmine/.rvm/bin/gem
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=irb
++ command rm -fv /home/redmine/.rvm/bin/irb
++ rm -fv /home/redmine/.rvm/bin/irb
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=erb
++ command rm -fv /home/redmine/.rvm/bin/erb
++ rm -fv /home/redmine/.rvm/bin/erb
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=ri
++ command rm -fv /home/redmine/.rvm/bin/ri
++ rm -fv /home/redmine/.rvm/bin/ri
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=rdoc
++ command rm -fv /home/redmine/.rvm/bin/rdoc
++ rm -fv /home/redmine/.rvm/bin/rdoc
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=testrb
++ command rm -fv /home/redmine/.rvm/bin/testrb
++ rm -fv /home/redmine/.rvm/bin/testrb
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=rake
++ command rm -fv /home/redmine/.rvm/bin/rake
++ rm -fv /home/redmine/.rvm/bin/rake
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=ruby
++ command rm -fv /home/redmine/.rvm/bin/ruby
++ rm -fv /home/redmine/.rvm/bin/ruby
++ for _path in '"$rvm_path"/wrappers/default/*' gem irb erb ri rdoc testrb rake ruby bundle
++ _path=bundle
++ command rm -fv /home/redmine/.rvm/bin/bundle
++ rm -fv /home/redmine/.rvm/bin/bundle

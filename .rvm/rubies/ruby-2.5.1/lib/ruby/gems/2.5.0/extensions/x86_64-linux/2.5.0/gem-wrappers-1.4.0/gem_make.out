@@ -1,0 +1,14 @@
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+/home/redmine/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20180930-17202-1r5j9eo.rb extconf.rb
+
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR=" clean
+make: *** Pas de règle pour fabriquer la cible « clean ». Arrêt.
+
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR="
+make: Rien à faire pour « all ».
+
+current directory: /home/redmine/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/gem-wrappers-1.4.0/ext/wrapper_generator
+make "DESTDIR=" install
+make: Rien à faire pour « install ».

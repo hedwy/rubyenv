@@ -1,0 +1,3 @@
+yum install -y patch autoconf automake bison gcc-c++ libffi-devel libtool patch readline-devel sqlite-devel zlib-devel glibc-headers glibc-devel openssl-devel
+
+yum install postgresql-devel

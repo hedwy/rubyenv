@@ -1,0 +1,15 @@
+---
+1.18.0 |checksum:8a842f0d13bcd19dbde0a1993f018317cc598b590f4fa0e48329c0e75150425e
+1.18.1 |checksum:e40e3216fd53c6f03539322ea81a934894e44453c86a58f2a7a1050b7d895369
+1.18.2 |checksum:c9d44c9c8544da6c653cae888137ca17af70f476447dd89f00e4119ceee6ed9d
+1.18.3 |checksum:045ce505af3376a7949a85f1c6a56508cfef3e468808fa6ce0fdc24587d24b91
+1.18.4 |checksum:e429bd4e1a56b74c006cc3b4f5c93617310b1b4e00a683f79e4fbe7f1173643c
+1.18.5 |checksum:ec2c8204a42081c3e22f48c4061c532ab87f28c41b601afa7d295ef8b5afbbc1
+1.18.6 |checksum:d5d1e30ad1465bea5b3c1809cf2789c6795dafbfba6c2cab40c628989229b650
+1.18.7 htmlentities:= 4.3.1|checksum:fd8f281229626c8d92104acdd9eafb1551b8cec8811bcb3253bdcb25b3eb8b6c
+1.19.0 htmlentities:= 4.3.1,rbpdf-font:~> 1.19.0|checksum:6fb408bda05c81f27af4a73abd13a20de8b485a6b2752502645cf3d2cb9eb89c,ruby:>= 1.8.7
+1.19.1 htmlentities:>= 0,rbpdf-font:~> 1.19.0|checksum:405c47ab1fe0fdfa7c80c2d49a07e32fd4fefd6e65d0febbd381caa718203821,ruby:>= 1.8.7
+1.19.2 htmlentities:>= 0,rbpdf-font:~> 1.19.0|checksum:9195daf16f92c57b4ba45e77fb435101274c8bbd770e9f933f0dcacc5aca5373,ruby:>= 1.8.7
+1.19.3 htmlentities:>= 0,rbpdf-font:~> 1.19.0|checksum:ee84b5ebb5b307a0d617a536295d14d2ba2a6deea79b84dfc7e0879b58c2d92d,ruby:>= 1.8.7
+1.19.4 htmlentities:>= 0,rbpdf-font:~> 1.19.0|checksum:8135d6bd69c91043c5fcdd14a05df11bd3ceb3f8e8cbc73f13e166ddd0459174,ruby:>= 1.8.7
+1.19.5 htmlentities:>= 0,rbpdf-font:~> 1.19.0|checksum:89ac3003b991c2f13cc0e4c6b4a8e6cccf6c83de8058db9bf7377df6866a2e08,ruby:>= 1.8.7
